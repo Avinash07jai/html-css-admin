@@ -425,6 +425,26 @@ tr td:last-child{
         grid-template-columns:100%;
     }
     
+    .recent-grid{
+        padding: 0;
+    }
+
+    .table-responsive {
+        padding: 0;
+        grid-template-columns: 100%;
+    }
+
+    .table-responsive thead tr td{
+        font-size: 16px;
+        padding: 5px  2px;
+    }
+
+    .table-responsive tbody tr td{
+        font-size: 14px;
+        padding: 0;
+        margin: 5px 0;
+    }
+    
      .sidebar {
         top: 70px;
     }
