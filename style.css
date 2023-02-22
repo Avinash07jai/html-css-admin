@@ -345,6 +345,7 @@ tr td:last-child{
     }
 
     .sidebar{
+        top:70px;
         left: -100% !important;
     }
 
@@ -409,12 +410,29 @@ tr td:last-child{
     #nav-toggle:checked ~ .main-content{
         margin-left: 0 !important;
     }
+    
+    .sidebar-brand {
+        display: none;
+    }
+
+    .sidebar-menu {
+        margin-top: 90px;
+    }
 }
 
 @media only screen and (max-width: 560px) {
     .cards{
         grid-template-columns:100%;
     }
+    
+     .sidebar {
+        top: 70px;
+    }
+
+    .sidebar-brand {
+        display: none;
+    }
+
 
 }
 
